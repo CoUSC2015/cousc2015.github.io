@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Alumni Impact — CoUSC</title>
+<link rel="icon" href="../images/logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800;900&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<style>
+.alumni-hero-stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;margin:32px 0}
+.ahs{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:20px;text-align:center;box-shadow:var(--shadow)}
+.ahs-num{font-size:2rem;font-weight:800;font-family:'Outfit',sans-serif;background:linear-gradient(135deg,var(--blue-md),var(--sky));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.ahs-label{font-size:0.78rem;color:var(--gray);margin-top:3px}
+.star-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px;margin-bottom:48px}
+.star-card{background:var(--white);border:1px solid var(--border2);border-radius:var(--radius-lg);padding:24px;box-shadow:var(--shadow);position:relative;overflow:hidden;transition:var(--trans)}
+.star-card:hover{transform:translateY(-3px);border-color:var(--blue-lt);box-shadow:0 8px 24px rgba(37,99,235,0.12)}
+.star-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--blue-md),var(--sky))}
+.star-emoji{font-size:2rem;margin-bottom:12px}
+.star-name{font-weight:800;font-size:1.05rem;color:var(--blue);margin-bottom:4px;font-family:'Outfit',sans-serif}
+.star-batch{font-size:0.72rem;color:var(--gray);margin-bottom:8px}
+.star-role{font-size:0.9rem;font-weight:600;color:var(--sky);margin-bottom:2px}
+.star-inst{font-size:0.84rem;color:var(--gray)}
+.star-cousc{font-size:0.75rem;color:var(--blue-lt);margin-top:8px;padding-top:8px;border-top:1px solid var(--border2)}
+</style>
+</head>
+<body class="lang-bn">
+
+<header id="header">
+ <div class="container">
+  <div class="header-top">
+   <a href="../index.html" class="header-logo"><img src="../images/logo.png" alt="CoUSC Logo"></a>
+   <div class="header-center">
+    <div class="header-motto">Know The Science, Know The Universe</div>
+    <div class="header-name">
+     <span data-lang="bn">কুমিল্লা বিশ্ববিদ্যালয় সায়েন্স ক্লাব (CoUSC)</span>
+     <span data-lang="en">Comilla University Science Club (CoUSC)</span>
+    </div>
+   </div>
+   <div class="header-right">
+    <div class="lang-toggle">
+     <button class="lang-btn active" onclick="setLang('bn')">বাংলা</button>
+     <button class="lang-btn" onclick="setLang('en')">English</button>
+    </div>
+   </div>
+  </div>
+  <nav class="header-nav">
+   <a class="nav-link" href="../index.html">🏠 <span data-lang="bn">হোম</span><span data-lang="en">Home</span></a>
+   <a class="nav-link" href="../index.html#about"><span data-lang="bn">আমাদের সম্পর্কে</span><span data-lang="en">About</span></a>
+   <a class="nav-link" href="../index.html#activities"><span data-lang="bn">কার্যক্রম</span><span data-lang="en">Activities</span></a>
+   <a class="nav-link" href="../index.html#achievements"><span data-lang="bn">অর্জন</span><span data-lang="en">Achievements</span></a>
+   <a class="nav-link nav-register" href="https://docs.google.com/forms/d/e/1FAIpQLScG65XBylfSbO_lp4lAXJ7Eysey4HQI3RPsEvjnlcWz3h96eQ/viewform?usp=header" target="_blank">
+    📝 <span data-lang="bn">রেজিস্ট্রেশন</span><span data-lang="en">Register</span>
+   </a>
+  </nav>
+ </div>
+</header>
+
+<div style="margin-top:88px;">
+ <div class="inner-hero">
+  <div class="container">
+   <div class="breadcrumb">
+    <a href="../index.html"><span data-lang="bn">হোম</span><span data-lang="en">Home</span></a> /
+    <a href="../index.html#achievements"><span data-lang="bn">অর্জন</span><span data-lang="en">Achievements</span></a> /
+    <span data-lang="bn">অ্যালামনাই ইমপ্যাক্ট</span><span data-lang="en">Alumni Impact</span>
+   </div>
+   <span class="tag tag-gold"><span data-lang="bn">প্রাক্তন সদস্য</span><span data-lang="en">Alumni</span></span>
+   <h1 style="margin-top:10px;">
+    <span data-lang="bn">আমাদের গর্বিত প্রাক্তন সদস্যরা</span>
+    <span data-lang="en">Our Proud Alumni</span>
+   </h1>
+   <p style="margin-top:12px;max-width:680px;color:var(--gray);">
+    <span data-lang="bn">CoUSC শুধু একটি ক্লাব নয় — এটি একটি Career Launchpad। ২০১৫ থেকে এই পরিবারের সদস্যরা দেশে ও বিদেশে বিভিন্ন গুরুত্বপূর্ণ পদে নিজেদের প্রমাণ করেছে।</span>
+    <span data-lang="en">CoUSC is not just a club — it's a Career Launchpad. Since 2015, members of this family have proven themselves in important roles at home and abroad.</span>
+   </p>
+   <div class="alumni-hero-stats">
+    <div class="ahs"><div class="ahs-num">1</div><div class="ahs-label"><span data-lang="bn">PhD গবেষক (USA)</span><span data-lang="en">PhD Researcher (USA)</span></div></div>
+    <div class="ahs"><div class="ahs-num">1</div><div class="ahs-label"><span data-lang="bn">Masters (Malaysia)</span><span data-lang="en">Masters (Malaysia)</span></div></div>
+    <div class="ahs"><div class="ahs-num">3+</div><div class="ahs-label"><span data-lang="bn">বিশ্ববিদ্যালয় শিক্ষক</span><span data-lang="en">University Lecturers</span></div></div>
+    <div class="ahs"><div class="ahs-num">2</div><div class="ahs-label"><span data-lang="bn">ব্যাংক কর্মকর্তা</span><span data-lang="en">Bank Officers</span></div></div>
+   </div>
+  </div>
+ </div>
+
+ <div class="inner-content">
+  <div class="container">
+
+   <!-- STAR ALUMNI -->
+   <h2 style="font-size:1.5rem;margin-bottom:8px;color:var(--blue);">
+    <span data-lang="bn">⭐ উল্লেখযোগ্য অ্যালামনাই</span>
+    <span data-lang="en">⭐ Notable Alumni</span>
+   </h2>
+   <p style="color:var(--gray);font-size:0.9rem;margin-bottom:24px;">
+    <span data-lang="bn">CoUSC-এর প্রাক্তন সদস্যদের মধ্যে যারা বিশেষ সাফল্য অর্জন করেছেন।</span>
+    <span data-lang="en">Alumni who have achieved exceptional success after their time at CoUSC.</span>
+   </p>
+   <div class="star-cards">
+
+    <div class="star-card fade-in">
+     <div class="star-emoji">🎓</div>
+     <div class="star-name">Md. Obaidul Haque</div>
+     <div class="star-batch"><span data-lang="bn">গণিত বিভাগ, ৭ম ব্যাচ</span><span data-lang="en">Mathematics, 7th Batch</span></div>
+     <div class="star-role">PhD Student</div>
+     <div class="star-inst">The University of Alabama, USA 🇺🇸</div>
+     <div class="star-cousc"><span data-lang="bn">সভাপতি (২০১৭-১৮) → PhD USA</span><span data-lang="en">President (2017–18) → PhD USA</span></div>
+    </div>
+
+    <div class="star-card fade-in">
+     <div class="star-emoji">🏫</div>
+     <div class="star-name">Md. Akhiy Alam Rocky</div>
+     <div class="star-batch"><span data-lang="bn">Physics বিভাগ, ৭ম ব্যাচ</span><span data-lang="en">Physics, 7th Batch</span></div>
+     <div class="star-role">Lecturer &amp; Head/Chairman, Dept. of Physics</div>
+     <div class="star-inst">Siddheswari College, Dhaka</div>
+     <div class="star-cousc"><span data-lang="bn">সহ-সভাপতি (২০১৫-১৮)</span><span data-lang="en">Vice President (2015–18)</span></div>
+    </div>
+
+    <div class="star-card fade-in">
+     <div class="star-emoji">🎓</div>
+     <div class="star-name">Hossain Ahmed Saimon</div>
+     <div class="star-batch"><span data-lang="bn">Pharmacy বিভাগ, ১০ম ব্যাচ</span><span data-lang="en">Pharmacy, 10th Batch</span></div>
+     <div class="star-role">Masters by Research in Management</div>
+     <div class="star-inst">Multimedia University, Malaysia 🇲🇾</div>
+     <div class="star-cousc"><span data-lang="bn">সহ-সভাপতি (২০১৯-২১)</span><span data-lang="en">Vice President (2019–21)</span></div>
+    </div>
+
+   </div>
+
+   <!-- FULL TABLE -->
+   <h2 style="font-size:1.5rem;margin-bottom:8px;color:var(--blue);">
+    <span data-lang="bn">📋 সম্পূর্ণ অ্যালামনাই তালিকা</span>
+    <span data-lang="en">📋 Complete Alumni List</span>
+   </h2>
+   <p style="color:var(--gray);font-size:0.9rem;margin-bottom:20px;">
+    <span data-lang="bn">ব্যাচ অনুযায়ী সিনিয়র থেকে জুনিয়র ক্রমে সাজানো।</span>
+    <span data-lang="en">Sorted from senior to junior batch.</span>
+   </p>
+
+   <div class="alumni-table-wrap">
+    <table class="alumni-table">
+     <thead>
+      <tr>
+       <th><span data-lang="bn">ব্যাচ</span><span data-lang="en">Batch</span></th>
+       <th><span data-lang="bn">নাম</span><span data-lang="en">Name</span></th>
+       <th><span data-lang="bn">বিভাগ</span><span data-lang="en">Dept.</span></th>
+       <th><span data-lang="bn">CoUSC-এ শেষ পদ</span><span data-lang="en">Last Role in CoUSC</span></th>
+       <th><span data-lang="bn">বর্তমান পদ</span><span data-lang="en">Current Role</span></th>
+       <th><span data-lang="bn">প্রতিষ্ঠান</span><span data-lang="en">Institution</span></th>
+      </tr>
+     </thead>
+     <tbody>
+
+      <tr>
+       <td><span class="batch-badge">07th</span></td>
+       <td style="font-weight:700;color:var(--blue);">Masud Parvej (Sobuj)</td>
+       <td class="alumni-dept">ICT</td>
+       <td style="color:var(--sky);font-size:0.82rem;font-weight:600;"><span data-lang="bn">প্রতিষ্ঠাতা সভাপতি (২০১৫-১৭)</span><span data-lang="en">Founding President (2015–17)</span></td>
+       <td style="font-size:0.85rem;">Lecturer</td>
+       <td style="color:var(--gray);font-size:0.82rem;">Anandapur Degree College</td>
+      </tr>
+
+      <tr>
+       <td><span class="batch-badge">07th</span></td>
+       <td style="font-weight:700;color:var(--blue);">Md. Akhiy Alam Rocky</td>
+       <td class="alumni-dept">Physics</td>
+       <td style="color:var(--sky);font-size:0.82rem;font-weight:600;"><span data-lang="bn">সহ-সভাপতি (২০১৫-১৬, ২০১৭-১৮)</span><span data-lang="en">Vice President (2015–16, 2017–18)</span></td>
+       <td style="font-size:0.85rem;">Lecturer &amp; Head/Chairman, Dept. of Physics</td>
+       <td style="color:var(--gray);font-size:0.82rem;">Siddheswari College, Dhaka</td>
+      </tr>
+
+      <tr>
+       <td><span class="batch-badge">07th</span></td>
+       <td style="font-weight:700;color:var(--blue);">Md. Obaidul Haque</td>
+       <td class="alumni-dept">Mathematics</td>
+       <td style="color:var(--sky);font-size:0.82rem;font-weight:600;"><span data-lang="bn">সভাপতি (২০১৭-১৮)</span><span data-lang="en">President (2017–18)</span></td>
+       <td style="font-size:0.85rem;">PhD Student</td>
+       <td style="color:var(--gray);font-size:0.82rem;">The University of Alabama, USA 🇺🇸</td>
+      </tr>
+
+      <tr>
+       <td><span class="batch-badge">09th</span></td>
+       <td style="font-weight:700;color:var(--blue);">Pankaj Chandra Kar</td>
+       <td class="alumni-dept">ICT</td>
+       <td style="color:var(--sky);font-size:0.82rem;font-weight:600;"><span data-lang="bn">নির্বাহী সদস্য (২০১৫-১৬)</span><span data-lang="en">Executive Member (2015–16)</span></td>
+       <td style="font-size:0.85rem;">Lecturer</td>
+       <td style="color:var(--gray);font-size:0.82rem;">Stamford University Bangladesh</td>
+      </tr>
+
+      <tr>
+       <td><span class="batch-badge">09th</span></td>
+       <td style="font-weight:700;color:var(--blue);">Md. Abu Sayed</td>
+       <td class="alumni-dept">CSE</td>
+       <td style="color:var(--sky);font-size:0.82rem;font-weight:600;"><span data-lang="bn">সদস্য (২০১৮-১৯)</span><span data-lang="en">Member (2018–19)</span></td>
+       <td style="font-size:0.85rem;">IT Officer</td>
+       <td style="color:var(--gray);font-size:0.82rem;">Sonali Bank PLC</td>
+      </tr>
+
+      <tr>
+       <td><span class="batch-badge">09th</span></td>
+       <td style="font-weight:700;color:var(--blue);">Tanmoy Kumar Sarker</td>
+       <td class="alumni-dept">Statistics</td>
+       <td style="color:var(--sky);font-size:0.82rem;font-weight:600;"><span data-lang="bn">সাধারণ সম্পাদক (২০১৯-২০)</span><span data-lang="en">General Secretary (2019–20)</span></td>
+       <td style="font-size:0.85rem;">Officer</td>
+       <td style="color:var(--gray);font-size:0.82rem;">Janata Bank PLC</td>
+      </tr>
+
+      <tr>
+       <td><span class="batch-badge">10th</span></td>
+       <td style="font-weight:700;color:var(--blue);">Easrat Jahan</td>
+       <td class="alumni-dept">Physics</td>
+       <td style="color:var(--sky);font-size:0.82rem;font-weight:600;"><span data-lang="bn">নির্বাহী সদস্য (২০১৭-১৮)</span><span data-lang="en">Executive Member (2017–18)</span></td>
+       <td style="font-size:0.85rem;">Assistant Teacher</td>
+       <td style="color:var(--gray);font-size:0.82rem;">A.K. School and College</td>
+      </tr>
+
+      <tr>
+       <td><span class="batch-badge">10th</span></td>
+       <td style="font-weight:700;color:var(--blue);">Hossain Ahmed Saimon</td>
+       <td class="alumni-dept">Pharmacy</td>
+       <td style="color:var(--sky);font-size:0.82rem;font-weight:600;"><span data-lang="bn">সহ-সভাপতি (২০১৯-২০, ২০২০-২১)</span><span data-lang="en">Vice President (2019–20, 2020–21)</span></td>
+       <td style="font-size:0.85rem;">Masters by Research in Management</td>
+       <td style="color:var(--gray);font-size:0.82rem;">Multimedia University, Malaysia 🇲🇾</td>
+      </tr>
+
+      <tr>
+       <td><span class="batch-badge">10th</span></td>
+       <td style="font-weight:700;color:var(--blue);">Md. Nurul Mostafa</td>
+       <td class="alumni-dept">Pharmacy</td>
+       <td style="color:var(--sky);font-size:0.82rem;font-weight:600;"><span data-lang="bn">সাধারণ সম্পাদক (২০২০-২১)</span><span data-lang="en">General Secretary (2020–21)</span></td>
+       <td style="font-size:0.85rem;">Hospital Pharmacist &amp; Medicine In-charge</td>
+       <td style="color:var(--gray);font-size:0.82rem;">Gomoti Hospital, Cumilla</td>
+      </tr>
+
+      <tr>
+       <td><span class="batch-badge">10th</span></td>
+       <td style="font-weight:700;color:var(--blue);">Kazi Afsarul Amin</td>
+       <td class="alumni-dept">Physics</td>
+       <td style="color:var(--sky);font-size:0.82rem;font-weight:600;"><span data-lang="bn">সহ-সভাপতি (২০২১-২২)</span><span data-lang="en">Vice President (2021–22)</span></td>
+       <td style="font-size:0.85rem;">Data Analyst</td>
+       <td style="color:var(--gray);font-size:0.82rem;">Service Engine</td>
+      </tr>
+
+      <tr>
+       <td><span class="batch-badge">11th</span></td>
+       <td style="font-weight:700;color:var(--blue);">Jahid Hossain Bhuiyan</td>
+       <td class="alumni-dept">Physics</td>
+       <td style="color:var(--sky);font-size:0.82rem;font-weight:600;"><span data-lang="bn">সাধারণ সম্পাদক (২০২৩-২৪)</span><span data-lang="en">General Secretary (2023–24)</span></td>
+       <td style="font-size:0.85rem;">Lecturer (Physics)</td>
+       <td style="color:var(--gray);font-size:0.82rem;">Uttara University</td>
+      </tr>
+
+     </tbody>
+    </table>
+   </div>
+
+   <div style="margin-top:40px;padding:28px;background:var(--bg2);border-radius:var(--radius-lg);border:1px solid var(--border);text-align:center;">
+    <p style="color:var(--gray);font-size:0.92rem;margin-bottom:16px;max-width:500px;margin-left:auto;margin-right:auto;">
+     <span data-lang="bn">তুমিও এই তালিকায় যোগ হতে পারো। CoUSC-এ যোগ দাও — তোমার যাত্রা আজই শুরু হোক।</span>
+     <span data-lang="en">You could be on this list too. Join CoUSC — start your journey today.</span>
+    </p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScG65XBylfSbO_lp4lAXJ7Eysey4HQI3RPsEvjnlcWz3h96eQ/viewform?usp=header" target="_blank" class="btn btn-primary">
+     📝 <span data-lang="bn">এখনই রেজিস্ট্রেশন করুন</span><span data-lang="en">Register Now</span>
+    </a>
+    <a href="../index.html" class="btn btn-outline" style="margin-left:12px;">
+     <span data-lang="bn">← হোমে ফিরুন</span><span data-lang="en">← Back to Home</span>
+    </a>
+   </div>
+
+  </div>
+ </div>
+</div>
+
+<footer id="footer">
+ <div class="container">
+  <div class="footer-bottom">
+   <span>© 2026 Comilla University Science Club (CoUSC). All rights reserved.</span>
+   <div style="display:flex;gap:12px;align-items:center;">
+    <a href="https://www.facebook.com/CoUSC2015/" target="_blank" style="color:#BAE6FD;font-size:0.82rem;">Facebook</a>
+    <a href="https://www.linkedin.com/company/cousc/" target="_blank" style="color:#BAE6FD;font-size:0.82rem;">LinkedIn</a>
+    <div class="footer-reg">✅ Govt. Reg.: GA-279/2025</div>
+   </div>
+  </div>
+ </div>
+</footer>
+
+<script>
+function setLang(l){document.body.className='lang-'+l;document.querySelectorAll('.lang-btn').forEach(b=>b.classList.remove('active'));const btn=document.querySelector(`.lang-btn[onclick="setLang('${l}')"]`);if(btn)btn.classList.add('active');localStorage.setItem('cousc-lang',l);}
+setLang(localStorage.getItem('cousc-lang')||'bn');
+window.addEventListener('scroll',()=>document.getElementById('header').classList.toggle('scrolled',scrollY>60),{passive:true});
+const obs=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('visible');}),{threshold:0.1});
+document.querySelectorAll('.fade-in').forEach(el=>obs.observe(el));
+</script>
+</body>
+</html>
