@@ -21,6 +21,15 @@
 .star-role{font-size:0.9rem;font-weight:600;color:var(--sky);margin-bottom:2px}
 .star-inst{font-size:0.84rem;color:var(--gray)}
 .star-cousc{font-size:0.75rem;color:var(--blue-lt);margin-top:8px;padding-top:8px;border-top:1px solid var(--border2)}
+.alumni-period{margin-bottom:36px}
+.period-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px;padding-bottom:12px;border-bottom:1px solid var(--border)}
+.period-title{display:flex;align-items:center;gap:10px;font-size:1.05rem;font-weight:800;color:var(--blue);font-family:'Outfit',sans-serif}
+.period-count{font-size:0.78rem;color:var(--gray)}
+.alumni-card-head{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;margin-bottom:10px}
+.star-dept{font-size:0.78rem;color:var(--gray);margin-top:4px}
+@media (max-width:640px){
+ .period-head,.alumni-card-head{flex-direction:column;align-items:flex-start}
+}
 </style>
 </head>
 <body class="lang-bn">
@@ -72,192 +81,235 @@
     <span data-lang="bn">CoUSC শুধু একটি ক্লাব নয় — এটি একটি Career Launchpad। ২০১৫ থেকে এই পরিবারের সদস্যরা দেশে ও বিদেশে বিভিন্ন গুরুত্বপূর্ণ পদে নিজেদের প্রমাণ করেছে।</span>
     <span data-lang="en">CoUSC is not just a club — it's a Career Launchpad. Since 2015, members of this family have proven themselves in important roles at home and abroad.</span>
    </p>
-   <div class="alumni-hero-stats">
-    <div class="ahs"><div class="ahs-num">1</div><div class="ahs-label"><span data-lang="bn">PhD গবেষক (USA)</span><span data-lang="en">PhD Researcher (USA)</span></div></div>
-    <div class="ahs"><div class="ahs-num">1</div><div class="ahs-label"><span data-lang="bn">Masters (Malaysia)</span><span data-lang="en">Masters (Malaysia)</span></div></div>
-    <div class="ahs"><div class="ahs-num">3+</div><div class="ahs-label"><span data-lang="bn">বিশ্ববিদ্যালয় শিক্ষক</span><span data-lang="en">University Lecturers</span></div></div>
-    <div class="ahs"><div class="ahs-num">2</div><div class="ahs-label"><span data-lang="bn">ব্যাংক কর্মকর্তা</span><span data-lang="en">Bank Officers</span></div></div>
-   </div>
   </div>
  </div>
 
  <div class="inner-content">
   <div class="container">
-
-   <!-- STAR ALUMNI -->
-   <h2 style="font-size:1.5rem;margin-bottom:8px;color:var(--blue);">
-    <span data-lang="bn">⭐ উল্লেখযোগ্য অ্যালামনাই</span>
-    <span data-lang="en">⭐ Notable Alumni</span>
-   </h2>
-   <p style="color:var(--gray);font-size:0.9rem;margin-bottom:24px;">
-    <span data-lang="bn">CoUSC-এর প্রাক্তন সদস্যদের মধ্যে যারা বিশেষ সাফল্য অর্জন করেছেন।</span>
-    <span data-lang="en">Alumni who have achieved exceptional success after their time at CoUSC.</span>
-   </p>
-   <div class="star-cards">
-
-    <div class="star-card fade-in">
-     <div class="star-emoji">🎓</div>
-     <div class="star-name">Md. Obaidul Haque</div>
-     <div class="star-batch"><span data-lang="bn">গণিত বিভাগ, ৭ম ব্যাচ</span><span data-lang="en">Mathematics, 7th Batch</span></div>
-     <div class="star-role">PhD Student</div>
-     <div class="star-inst">The University of Alabama, USA 🇺🇸</div>
-     <div class="star-cousc"><span data-lang="bn">সভাপতি (২০১৭-১৮) → PhD USA</span><span data-lang="en">President (2017–18) → PhD USA</span></div>
-    </div>
-
-    <div class="star-card fade-in">
-     <div class="star-emoji">🏫</div>
-     <div class="star-name">Md. Akhiy Alam Rocky</div>
-     <div class="star-batch"><span data-lang="bn">Physics বিভাগ, ৭ম ব্যাচ</span><span data-lang="en">Physics, 7th Batch</span></div>
-     <div class="star-role">Lecturer &amp; Head/Chairman, Dept. of Physics</div>
-     <div class="star-inst">Siddheswari College, Dhaka</div>
-     <div class="star-cousc"><span data-lang="bn">সহ-সভাপতি (২০১৫-১৮)</span><span data-lang="en">Vice President (2015–18)</span></div>
-    </div>
-
-    <div class="star-card fade-in">
-     <div class="star-emoji">🎓</div>
-     <div class="star-name">Hossain Ahmed Saimon</div>
-     <div class="star-batch"><span data-lang="bn">Pharmacy বিভাগ, ১০ম ব্যাচ</span><span data-lang="en">Pharmacy, 10th Batch</span></div>
-     <div class="star-role">Masters by Research in Management</div>
-     <div class="star-inst">Multimedia University, Malaysia 🇲🇾</div>
-     <div class="star-cousc"><span data-lang="bn">সহ-সভাপতি (২০১৯-২১)</span><span data-lang="en">Vice President (2019–21)</span></div>
-    </div>
-
-   </div>
-
-   <!-- FULL TABLE -->
+   <!-- FULL ALUMNI CARDS -->
    <h2 style="font-size:1.5rem;margin-bottom:8px;color:var(--blue);">
     <span data-lang="bn">📋 সম্পূর্ণ অ্যালামনাই তালিকা</span>
     <span data-lang="en">📋 Complete Alumni List</span>
    </h2>
    <p style="color:var(--gray);font-size:0.9rem;margin-bottom:20px;">
-    <span data-lang="bn">ব্যাচ অনুযায়ী সিনিয়র থেকে জুনিয়র ক্রমে সাজানো।</span>
-    <span data-lang="en">Sorted from senior to junior batch.</span>
+    <span data-lang="bn">সব অ্যালামনাইকে ব্যাচ/পিরিয়ড অনুযায়ী সিনিয়র থেকে জুনিয়র ক্রমে স্টার কার্ড আকারে সাজানো হয়েছে।</span>
+    <span data-lang="en">Every alumni is now shown as a star card, grouped by batch/period from senior to junior.</span>
    </p>
 
-   <div class="alumni-table-wrap">
-    <table class="alumni-table">
-     <thead>
-      <tr>
-       <th><span data-lang="bn">ব্যাচ</span><span data-lang="en">Batch</span></th>
-       <th><span data-lang="bn">নাম</span><span data-lang="en">Name</span></th>
-       <th><span data-lang="bn">বিভাগ</span><span data-lang="en">Dept.</span></th>
-       <th><span data-lang="bn">CoUSC-এ শেষ পদ</span><span data-lang="en">Last Role in CoUSC</span></th>
-       <th><span data-lang="bn">বর্তমান পদ</span><span data-lang="en">Current Role</span></th>
-       <th><span data-lang="bn">প্রতিষ্ঠান</span><span data-lang="en">Institution</span></th>
-      </tr>
-     </thead>
-     <tbody>
+   <div class="alumni-period">
+    <div class="period-head">
+     <div class="period-title">
+      <span class="batch-badge">07th</span>
+      <span data-lang="bn">০৭তম ব্যাচ</span><span data-lang="en">07th Batch</span>
+     </div>
+     <div class="period-count"><span data-lang="bn">৩ জন অ্যালামনাই</span><span data-lang="en">3 alumni</span></div>
+    </div>
+    <div class="star-cards">
 
-      <tr>
-       <td><span class="batch-badge">07th</span></td>
-       <td style="font-weight:700;color:var(--blue);">Masud Parvej (Sobuj)</td>
-       <td class="alumni-dept">ICT</td>
-       <td style="color:var(--sky);font-size:0.82rem;font-weight:600;"><span data-lang="bn">প্রতিষ্ঠাতা সভাপতি (২০১৫-১৭)</span><span data-lang="en">Founding President (2015–17)</span></td>
-       <td style="font-size:0.85rem;">Lecturer</td>
-       <td style="color:var(--gray);font-size:0.82rem;">Anandapur Degree College</td>
-      </tr>
+     <div class="star-card fade-in">
+      <div class="star-emoji">🌟</div>
+      <div class="alumni-card-head">
+       <div>
+        <div class="star-name">Masud Parvej (Sobuj)</div>
+        <div class="star-dept"><span data-lang="bn">ICT বিভাগ</span><span data-lang="en">ICT Department</span></div>
+       </div>
+       <span class="batch-badge">07th Batch</span>
+      </div>
+      <div class="star-role">Lecturer</div>
+      <div class="star-inst">Anandapur Degree College</div>
+      <div class="star-cousc"><span data-lang="bn">CoUSC-এ শেষ পদ: প্রতিষ্ঠাতা সভাপতি (২০১৫-১৭)</span><span data-lang="en">Last role in CoUSC: Founding President (2015–17)</span></div>
+     </div>
 
-      <tr>
-       <td><span class="batch-badge">07th</span></td>
-       <td style="font-weight:700;color:var(--blue);">Md. Akhiy Alam Rocky</td>
-       <td class="alumni-dept">Physics</td>
-       <td style="color:var(--sky);font-size:0.82rem;font-weight:600;"><span data-lang="bn">সহ-সভাপতি (২০১৫-১৬, ২০১৭-১৮)</span><span data-lang="en">Vice President (2015–16, 2017–18)</span></td>
-       <td style="font-size:0.85rem;">Lecturer &amp; Head/Chairman, Dept. of Physics</td>
-       <td style="color:var(--gray);font-size:0.82rem;">Siddheswari College, Dhaka</td>
-      </tr>
+     <div class="star-card fade-in">
+      <div class="star-emoji">🏫</div>
+      <div class="alumni-card-head">
+       <div>
+        <div class="star-name">Md. Akhiy Alam Rocky</div>
+        <div class="star-dept"><span data-lang="bn">পদার্থবিজ্ঞান বিভাগ</span><span data-lang="en">Physics Department</span></div>
+       </div>
+       <span class="batch-badge">07th Batch</span>
+      </div>
+      <div class="star-role">Lecturer &amp; Head/Chairman, Dept. of Physics</div>
+      <div class="star-inst">Siddheswari College, Dhaka</div>
+      <div class="star-cousc"><span data-lang="bn">CoUSC-এ শেষ পদ: সহ-সভাপতি (২০১৫-১৬, ২০১৭-১৮)</span><span data-lang="en">Last role in CoUSC: Vice President (2015–16, 2017–18)</span></div>
+     </div>
 
-      <tr>
-       <td><span class="batch-badge">07th</span></td>
-       <td style="font-weight:700;color:var(--blue);">Md. Obaidul Haque</td>
-       <td class="alumni-dept">Mathematics</td>
-       <td style="color:var(--sky);font-size:0.82rem;font-weight:600;"><span data-lang="bn">সভাপতি (২০১৭-১৮)</span><span data-lang="en">President (2017–18)</span></td>
-       <td style="font-size:0.85rem;">PhD Student</td>
-       <td style="color:var(--gray);font-size:0.82rem;">The University of Alabama, USA 🇺🇸</td>
-      </tr>
+     <div class="star-card fade-in">
+      <div class="star-emoji">🎓</div>
+      <div class="alumni-card-head">
+       <div>
+        <div class="star-name">Md. Obaidul Haque</div>
+        <div class="star-dept"><span data-lang="bn">গণিত বিভাগ</span><span data-lang="en">Mathematics Department</span></div>
+       </div>
+       <span class="batch-badge">07th Batch</span>
+      </div>
+      <div class="star-role">PhD Student</div>
+      <div class="star-inst">The University of Alabama, USA 🇺🇸</div>
+      <div class="star-cousc"><span data-lang="bn">CoUSC-এ শেষ পদ: সভাপতি (২০১৭-১৮)</span><span data-lang="en">Last role in CoUSC: President (2017–18)</span></div>
+     </div>
 
-      <tr>
-       <td><span class="batch-badge">09th</span></td>
-       <td style="font-weight:700;color:var(--blue);">Pankaj Chandra Kar</td>
-       <td class="alumni-dept">ICT</td>
-       <td style="color:var(--sky);font-size:0.82rem;font-weight:600;"><span data-lang="bn">নির্বাহী সদস্য (২০১৫-১৬)</span><span data-lang="en">Executive Member (2015–16)</span></td>
-       <td style="font-size:0.85rem;">Lecturer</td>
-       <td style="color:var(--gray);font-size:0.82rem;">Stamford University Bangladesh</td>
-      </tr>
-
-      <tr>
-       <td><span class="batch-badge">09th</span></td>
-       <td style="font-weight:700;color:var(--blue);">Md. Abu Sayed</td>
-       <td class="alumni-dept">CSE</td>
-       <td style="color:var(--sky);font-size:0.82rem;font-weight:600;"><span data-lang="bn">সদস্য (২০১৮-১৯)</span><span data-lang="en">Member (2018–19)</span></td>
-       <td style="font-size:0.85rem;">IT Officer</td>
-       <td style="color:var(--gray);font-size:0.82rem;">Sonali Bank PLC</td>
-      </tr>
-
-      <tr>
-       <td><span class="batch-badge">09th</span></td>
-       <td style="font-weight:700;color:var(--blue);">Tanmoy Kumar Sarker</td>
-       <td class="alumni-dept">Statistics</td>
-       <td style="color:var(--sky);font-size:0.82rem;font-weight:600;"><span data-lang="bn">সাধারণ সম্পাদক (২০১৯-২০)</span><span data-lang="en">General Secretary (2019–20)</span></td>
-       <td style="font-size:0.85rem;">Officer</td>
-       <td style="color:var(--gray);font-size:0.82rem;">Janata Bank PLC</td>
-      </tr>
-
-      <tr>
-       <td><span class="batch-badge">10th</span></td>
-       <td style="font-weight:700;color:var(--blue);">Easrat Jahan</td>
-       <td class="alumni-dept">Physics</td>
-       <td style="color:var(--sky);font-size:0.82rem;font-weight:600;"><span data-lang="bn">নির্বাহী সদস্য (২০১৭-১৮)</span><span data-lang="en">Executive Member (2017–18)</span></td>
-       <td style="font-size:0.85rem;">Assistant Teacher</td>
-       <td style="color:var(--gray);font-size:0.82rem;">A.K. School and College</td>
-      </tr>
-
-      <tr>
-       <td><span class="batch-badge">10th</span></td>
-       <td style="font-weight:700;color:var(--blue);">Hossain Ahmed Saimon</td>
-       <td class="alumni-dept">Pharmacy</td>
-       <td style="color:var(--sky);font-size:0.82rem;font-weight:600;"><span data-lang="bn">সহ-সভাপতি (২০১৯-২০, ২০২০-২১)</span><span data-lang="en">Vice President (2019–20, 2020–21)</span></td>
-       <td style="font-size:0.85rem;">Masters by Research in Management</td>
-       <td style="color:var(--gray);font-size:0.82rem;">Multimedia University, Malaysia 🇲🇾</td>
-      </tr>
-
-      <tr>
-       <td><span class="batch-badge">10th</span></td>
-       <td style="font-weight:700;color:var(--blue);">Md. Nurul Mostafa</td>
-       <td class="alumni-dept">Pharmacy</td>
-       <td style="color:var(--sky);font-size:0.82rem;font-weight:600;"><span data-lang="bn">সাধারণ সম্পাদক (২০২০-২১)</span><span data-lang="en">General Secretary (2020–21)</span></td>
-       <td style="font-size:0.85rem;">Hospital Pharmacist &amp; Medicine In-charge</td>
-       <td style="color:var(--gray);font-size:0.82rem;">Gomoti Hospital, Cumilla</td>
-      </tr>
-
-      <tr>
-       <td><span class="batch-badge">10th</span></td>
-       <td style="font-weight:700;color:var(--blue);">Kazi Afsarul Amin</td>
-       <td class="alumni-dept">Physics</td>
-       <td style="color:var(--sky);font-size:0.82rem;font-weight:600;"><span data-lang="bn">সহ-সভাপতি (২০২১-২২)</span><span data-lang="en">Vice President (2021–22)</span></td>
-       <td style="font-size:0.85rem;">Data Analyst</td>
-       <td style="color:var(--gray);font-size:0.82rem;">Service Engine</td>
-      </tr>
-
-      <tr>
-       <td><span class="batch-badge">11th</span></td>
-       <td style="font-weight:700;color:var(--blue);">Jahid Hossain Bhuiyan</td>
-       <td class="alumni-dept">Physics</td>
-       <td style="color:var(--sky);font-size:0.82rem;font-weight:600;"><span data-lang="bn">সাধারণ সম্পাদক (২০২৩-২৪)</span><span data-lang="en">General Secretary (2023–24)</span></td>
-       <td style="font-size:0.85rem;">Lecturer (Physics)</td>
-       <td style="color:var(--gray);font-size:0.82rem;">Uttara University</td>
-      </tr>
-
-     </tbody>
-    </table>
+    </div>
    </div>
+
+   <div class="alumni-period">
+    <div class="period-head">
+     <div class="period-title">
+      <span class="batch-badge">09th</span>
+      <span data-lang="bn">০৯তম ব্যাচ</span><span data-lang="en">09th Batch</span>
+     </div>
+     <div class="period-count"><span data-lang="bn">৩ জন অ্যালামনাই</span><span data-lang="en">3 alumni</span></div>
+    </div>
+    <div class="star-cards">
+
+     <div class="star-card fade-in">
+      <div class="star-emoji">📘</div>
+      <div class="alumni-card-head">
+       <div>
+        <div class="star-name">Pankaj Chandra Kar</div>
+        <div class="star-dept"><span data-lang="bn">ICT বিভাগ</span><span data-lang="en">ICT Department</span></div>
+       </div>
+       <span class="batch-badge">09th Batch</span>
+      </div>
+      <div class="star-role">Lecturer</div>
+      <div class="star-inst">Stamford University Bangladesh</div>
+      <div class="star-cousc"><span data-lang="bn">CoUSC-এ শেষ পদ: নির্বাহী সদস্য (২০১৫-১৬)</span><span data-lang="en">Last role in CoUSC: Executive Member (2015–16)</span></div>
+     </div>
+
+     <div class="star-card fade-in">
+      <div class="star-emoji">💼</div>
+      <div class="alumni-card-head">
+       <div>
+        <div class="star-name">Md. Abu Sayed</div>
+        <div class="star-dept"><span data-lang="bn">CSE বিভাগ</span><span data-lang="en">CSE Department</span></div>
+       </div>
+       <span class="batch-badge">09th Batch</span>
+      </div>
+      <div class="star-role">IT Officer</div>
+      <div class="star-inst">Sonali Bank PLC</div>
+      <div class="star-cousc"><span data-lang="bn">CoUSC-এ শেষ পদ: সদস্য (২০১৮-১৯)</span><span data-lang="en">Last role in CoUSC: Member (2018–19)</span></div>
+     </div>
+
+     <div class="star-card fade-in">
+      <div class="star-emoji">🏦</div>
+      <div class="alumni-card-head">
+       <div>
+        <div class="star-name">Tanmoy Kumar Sarker</div>
+        <div class="star-dept"><span data-lang="bn">পরিসংখ্যান বিভাগ</span><span data-lang="en">Statistics Department</span></div>
+       </div>
+       <span class="batch-badge">09th Batch</span>
+      </div>
+      <div class="star-role">Officer</div>
+      <div class="star-inst">Janata Bank PLC</div>
+      <div class="star-cousc"><span data-lang="bn">CoUSC-এ শেষ পদ: সাধারণ সম্পাদক (২০১৯-২০)</span><span data-lang="en">Last role in CoUSC: General Secretary (2019–20)</span></div>
+     </div>
+
+    </div>
+   </div>
+
+   <div class="alumni-period">
+    <div class="period-head">
+     <div class="period-title">
+      <span class="batch-badge">10th</span>
+      <span data-lang="bn">১০ম ব্যাচ</span><span data-lang="en">10th Batch</span>
+     </div>
+     <div class="period-count"><span data-lang="bn">৪ জন অ্যালামনাই</span><span data-lang="en">4 alumni</span></div>
+    </div>
+    <div class="star-cards">
+
+     <div class="star-card fade-in">
+      <div class="star-emoji">📚</div>
+      <div class="alumni-card-head">
+       <div>
+        <div class="star-name">Easrat Jahan</div>
+        <div class="star-dept"><span data-lang="bn">পদার্থবিজ্ঞান বিভাগ</span><span data-lang="en">Physics Department</span></div>
+       </div>
+       <span class="batch-badge">10th Batch</span>
+      </div>
+      <div class="star-role">Assistant Teacher</div>
+      <div class="star-inst">A.K. School and College</div>
+      <div class="star-cousc"><span data-lang="bn">CoUSC-এ শেষ পদ: নির্বাহী সদস্য (২০১৭-১৮)</span><span data-lang="en">Last role in CoUSC: Executive Member (2017–18)</span></div>
+     </div>
+
+     <div class="star-card fade-in">
+      <div class="star-emoji">🎓</div>
+      <div class="alumni-card-head">
+       <div>
+        <div class="star-name">Hossain Ahmed Saimon</div>
+        <div class="star-dept"><span data-lang="bn">ফার্মেসি বিভাগ</span><span data-lang="en">Pharmacy Department</span></div>
+       </div>
+       <span class="batch-badge">10th Batch</span>
+      </div>
+      <div class="star-role">Masters by Research in Management</div>
+      <div class="star-inst">Multimedia University, Malaysia 🇲🇾</div>
+      <div class="star-cousc"><span data-lang="bn">CoUSC-এ শেষ পদ: সহ-সভাপতি (২০১৯-২০, ২০২০-২১)</span><span data-lang="en">Last role in CoUSC: Vice President (2019–20, 2020–21)</span></div>
+     </div>
+
+     <div class="star-card fade-in">
+      <div class="star-emoji">💊</div>
+      <div class="alumni-card-head">
+       <div>
+        <div class="star-name">Md. Nurul Mostafa</div>
+        <div class="star-dept"><span data-lang="bn">ফার্মেসি বিভাগ</span><span data-lang="en">Pharmacy Department</span></div>
+       </div>
+       <span class="batch-badge">10th Batch</span>
+      </div>
+      <div class="star-role">Hospital Pharmacist &amp; Medicine In-charge</div>
+      <div class="star-inst">Gomoti Hospital, Cumilla</div>
+      <div class="star-cousc"><span data-lang="bn">CoUSC-এ শেষ পদ: সাধারণ সম্পাদক (২০২০-২১)</span><span data-lang="en">Last role in CoUSC: General Secretary (2020–21)</span></div>
+     </div>
+
+     <div class="star-card fade-in">
+      <div class="star-emoji">📊</div>
+      <div class="alumni-card-head">
+       <div>
+        <div class="star-name">Kazi Afsarul Amin</div>
+        <div class="star-dept"><span data-lang="bn">পদার্থবিজ্ঞান বিভাগ</span><span data-lang="en">Physics Department</span></div>
+       </div>
+       <span class="batch-badge">10th Batch</span>
+      </div>
+      <div class="star-role">Data Analyst</div>
+      <div class="star-inst">Service Engine</div>
+      <div class="star-cousc"><span data-lang="bn">CoUSC-এ শেষ পদ: সহ-সভাপতি (২০২১-২২)</span><span data-lang="en">Last role in CoUSC: Vice President (2021–22)</span></div>
+     </div>
+
+    </div>
+   </div>
+
+   <div class="alumni-period">
+    <div class="period-head">
+     <div class="period-title">
+      <span class="batch-badge">11th</span>
+      <span data-lang="bn">১১তম ব্যাচ</span><span data-lang="en">11th Batch</span>
+     </div>
+     <div class="period-count"><span data-lang="bn">১ জন অ্যালামনাই</span><span data-lang="en">1 alumni</span></div>
+    </div>
+    <div class="star-cards">
+
+     <div class="star-card fade-in">
+      <div class="star-emoji">🧑‍🏫</div>
+      <div class="alumni-card-head">
+       <div>
+        <div class="star-name">Jahid Hossain Bhuiyan</div>
+        <div class="star-dept"><span data-lang="bn">পদার্থবিজ্ঞান বিভাগ</span><span data-lang="en">Physics Department</span></div>
+       </div>
+       <span class="batch-badge">11th Batch</span>
+      </div>
+      <div class="star-role">Lecturer (Physics)</div>
+      <div class="star-inst">Uttara University</div>
+      <div class="star-cousc"><span data-lang="bn">CoUSC-এ শেষ পদ: সাধারণ সম্পাদক (২০২৩-২৪)</span><span data-lang="en">Last role in CoUSC: General Secretary (2023–24)</span></div>
+     </div>
+
+    </div>
+   </div>
+  </div>
 
    <div style="margin-top:40px;padding:28px;background:var(--bg2);border-radius:var(--radius-lg);border:1px solid var(--border);text-align:center;">
     <p style="color:var(--gray);font-size:0.92rem;margin-bottom:16px;max-width:500px;margin-left:auto;margin-right:auto;">
      <span data-lang="bn">তুমিও এই তালিকায় যোগ হতে পারো। CoUSC-এ যোগ দাও — তোমার যাত্রা আজই শুরু হোক।</span>
      <span data-lang="en">You could be on this list too. Join CoUSC — start your journey today.</span>
     </p>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLScG65XBylfSbO_lp4lAXJ7Eysey4HQI3RPsEvjnlcWz3h96eQ/viewform?usp=header" target="_blank" class="btn btn-primary">
-     📝 <span data-lang="bn">এখনই রেজিস্ট্রেশন করুন</span><span data-lang="en">Register Now</span>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeDomJmMZxtYuFwP81K5jwHpRm2OmsHUYXkYOFtl1Vm1lsZ_Q/viewform?usp=dialog" target="_blank" class="btn btn-primary">
+     📝 <span data-lang="bn">অ্যালামনাই হিসেবে যুক্ত হোন</span><span data-lang="en">Register as a Alumni</span>
     </a>
     <a href="../index.html" class="btn btn-outline" style="margin-left:12px;">
      <span data-lang="bn">← হোমে ফিরুন</span><span data-lang="en">← Back to Home</span>
